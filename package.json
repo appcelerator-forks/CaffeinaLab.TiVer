@@ -1,8 +1,8 @@
 {
   "name": "tiver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple shell script to handle different tiapp/icons of a Titanium application",
-  "author": "Flavio De Stefano <destefano.flavio@gmail.com>",
+  "author": "Flavio De Stefano <flavio.destefano@caffeinalab.com>",
   "bin": {
       "tiver": "./cli.js"
    },
@@ -10,13 +10,13 @@
     "commander": "^2.3.0",
     "ticons": "^0.7.0"
   },
-  "homepage": "https://github.com/kopiro/tiver",
+  "homepage": "https://github.com/CaffeinLab/TiVer",
   "bugs":{
-  	"url":"https://github.com/kopiro/tiver/issues"
+  	"url":"https://github.com/CaffeinLab/TiVer/issues"
   	},
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kopiro/tiver.git"
+    "url": "git://github.com/CaffeinaLab/TiVer.git"
   }
 }
