@@ -4,7 +4,7 @@
   "description": "Simple shell script to handle different tiapp/icons of a Titanium application",
   "author": "Flavio De Stefano <destefano.flavio@gmail.com>",
   "bin": {
-      "ticons": "./cli.js"
+      "tiver": "./cli.js"
    },
   	"dependencies": {
     "commander": "^2.3.0",
