@@ -2,6 +2,7 @@
   "name": "TiVer",
   "version": "0.0.1",
   "description": "Simple shell script to handle different tiapp/icons of a Titanium application",
+  "author": "Flavio De Stefano <destefano.flavio@gmail.com>",
   "bin": {
       "ticons": "./cli.js"
    },
