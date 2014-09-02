@@ -1,0 +1,21 @@
+{
+  "name": "TiVer",
+  "version": "0.0.1",
+  "description": "Simple shell script to handle different tiapp/icons of a Titanium application",
+  "bin": {
+      "ticons": "./cli.js"
+   },
+  	"dependencies": {
+    "commander": "^2.3.0",
+    "ticons": "^0.7.0"
+  },
+  "homepage": "https://github.com/kopiro/tiver",
+  "bugs":{
+  	"url":"https://github.com/kopiro/tiver/issues"
+  	},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kopiro/tiver.git"
+  }
+}
