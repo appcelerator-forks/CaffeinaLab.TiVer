@@ -2,7 +2,6 @@
 
 var program = require('commander');
 var package = require('./package.json');
-var logger = require('./lib/logger');
 var fs = require('fs');
 var ticons = require('ticons');
 
@@ -23,7 +22,7 @@ if (!VER) {
 }
 
 if (fs.existsSync('./tiapp.'+VER+'.xml')) {
-	fs.unlinkSync('tiapp.xml');
+	try { fs.unlinkSync('tiapp.xml'); } catch (err){}
 	fs.symlinkSync('./tiapp.'+VER+'.xml', 'tiapp.xml');
 } else {
 	console.warn('A tiapp.'+VER+'.xml not exists');
@@ -33,10 +32,6 @@ if (fs.existsSync('icon.'+VER+'.png')) {
 	ticons.icons({
 		input: 'icon.'+VER+'.png'
 	}, function(err, out) {
-		if (err) {
-			return console.error(err);
-		}
-
-		console.log("Generated files: "+out.join('\n'));
+		if (err) return console.error(err);
 	});
 }
