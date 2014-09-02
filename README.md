@@ -1,6 +1,6 @@
 # TiVER
 
-Simple shell script to handle different tiapp/icons of a Titanium application"
+Simple shell script to handle different tiapp/icons of a Titanium application
 
 ## Install
 
